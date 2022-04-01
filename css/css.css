@@ -1,0 +1,267 @@
+
+@font-face {
+    font-family: FakePearl-Regular;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+}
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+* {
+    font-family: FakePearl-Regular,  ‘cwTeXYen’, sans-serif;
+}
+
+@font-face {
+    font-family: FakePearl-Regular, cwTeXYen,sans-serif;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+
+}
+
+
+*:not(.img_text_text) {
+    font-family: 'FakePearl-Regular', ‘cwTeXYen’ ,sans-serif;
+    /* 鎖右鍵複製文字 */
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    /* 鎖右鍵複製圖片 */
+
+}
+
+nav {
+    background: #ffde77;
+    
+}
+.navbar>a{
+    font-size: 3vmin;
+
+    color: #905ec5;
+    /* margin-left: 10px; */
+}
+.login{
+    
+}
+.navbar>a:hover{
+    text-decoration: none;
+    font-size: 4vmin;
+    color: #ff5e7a;
+}
+
+  /* .container-fluid  */
+  .container {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* padding-top: 56px; */
+}
+
+/* color */
+/* 淡粉#ff8c8d
+淡藍 #94d7f2
+淡橘#fee3aa */
+/* 原本的
+淡紫#ccafea
+橘黃#ffde77
+深紫#905ec5
+橘色#ff9642
+粉色#ff5e7a*/
+
+#header {
+    /* width: 1500px; */
+    height:600px;
+    z-index: 2;
+    /* display: block; */
+    text-align: center;
+    /* margin-top: 150px; */
+    color: #ffde77;
+    font-size: 15pc;
+    /* font-size: 12rem; */
+    /* height: auto; */
+}
+
+#header>div {
+    /* line-height: 600px; */
+   /* margin-top: 20%; */
+    
+}
+
+img {
+    /* height: 85%;
+    width: 85%;
+    margin: auto; */
+}
+
+#rocket_top {
+    width: 80%;
+    height: 80%;
+    /* position: fixed; */
+    /* position: relative; */
+    top:-10%;
+    /* min-height:30%; */
+    right: -20%;
+    /* bottom: -80%; */
+}
+
+#bear {
+    /* max-width: 100%; */
+    width: 70%;
+    /* height: 120%; */
+    position: relative;
+    /* top: -20%; */
+    right: 15%;
+}
+
+#train {
+    z-index: 1;
+    position: absolute;
+    /* position: relative; */
+    top: 60%;
+        /* bottom: 10%; */
+    /* height: 80%; */
+    width: 100%;
+    /* max-width: 90%; */
+}
+
+#me {
+    position: relative;
+    top: -80%;
+}
+
+#rocket {
+    width: 25%;
+    margin: auto;
+    
+}
+
+.row {
+    /* width: 1200px; */
+    /* margin: auto; */
+    text-align: center;
+    /* vertical-align: middle; */
+    /* line-height: 250px; */
+}
+
+.row:not(.text-box) {
+    line-height: 250px;
+}
+
+.box {
+    height: 250px;
+    /* border: 1px solid grey; */
+    /* width: 250px; */
+    /* background-color: wheat; */
+    font-family: FakePearl-Regular;
+
+}
+
+#start {
+    font-size: 7vmin;
+    color: #905ec5;
+    background: #ffde77;
+}
+
+#purple {
+    background: #1b02aa;
+    font-size: 5rem;
+    color:white
+
+}
+
+#purple-2 {
+    background: #ccafea;
+   color:white;
+   font-size: 4vmin;
+   line-height: 20px;
+
+}
+
+#purple-2 >a{
+    color:azure;
+    line-height: 200px;
+    
+}
+#purple-2>a:hover{
+    font-size: 2rem;
+    color:#ff5e7a;
+}
+#pink {
+    background: #ff5e7a;
+}
+
+#orange {
+    background: #debefc;
+    color: #905ec5;
+    font-size: 7vmin;
+
+}
+#information{
+    background: #debefc;
+    color: white;
+    font-size: 5rem;
+}
+#information >p>a{
+    text-decoration: none;
+    color: white;
+}
+
+#information >p>a:hover{
+    color:#ff5e7a;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: #1b02aa;
+}
+.d-flex {
+    
+    width: 100%;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.card-item {
+    margin-top: 50px;
+}
+
+
+
+*/ span>p {
+    /* margin-left:; */
+    font-size: 60px;
+}
+
+.text-box {
+    line-height: 40px;
+
+}
+
+.main-text-box {
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.main-text-box>img {
+    margin-top: -20%;
+    margin-left: 20%;
+}
+
+.text-box>p {
+    margin-top: 30px;
+}
+
+.work {
+    /* height: 400px; */
+    font-size: 60px;
+}
+
+.left {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    font-size: 50px;
+    border-left: dashed;
+    border-width: 5px;
+    width: 100%;
+    background: #ff9642;
+    height: 100%;
+}
+
+#portfolio{
+    flex-wrap: wrap;
+}

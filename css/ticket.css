@@ -1,0 +1,180 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Serif+TC:wght@700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Serif+TC:wght@700;900&family=Press+Start+2P&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Noto+Serif+TC:wght@700;900&display=swap'); */
+.ticket {
+    position: relative;
+    box-sizing: border-box;
+    width: 450px;
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ccafea;
+    box-shadow: 2px 2px 15px 0px #905ec5;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.ticket:hover {
+    transform: scale(1.10, 1.10);
+}
+
+.ticket:before, .ticket:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    height: 6px;
+    width: 435px;
+}
+
+.ticket:before {
+    top: -5px;
+    background: radial-gradient(circle, transparent, transparent 50%, #ccafea 50%, #ccafea 100%) -7px -8px / 16px 16px repeat-x;
+}
+
+.ticket:after {
+    bottom: -5px;
+    background: radial-gradient(circle, transparent, transparent 50%, #ccafea 50%, #ccafea 100%) -7px -2px / 16px 16px repeat-x;
+}
+
+.ticket__content {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #ffde77;
+}
+
+.ticket-img {
+    /* flex-basis: calc(100% - 30%); */
+    /* background: #c6dede; */
+    /* width: 100%; */
+    /* height: 50%; */
+    /* background-color: chartreuse; */
+    /* margin: auto; */
+    /* max-width: 100%; */
+}
+
+
+
+.ticket__text {
+    width: 400px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+
+    color: #c6dede;
+
+}
+
+img {
+    /* max-width: 100%; */
+    height: 95%;
+    width: 95%;
+    margin: auto;
+    display: block;
+    /* margin-top: 50px auto; */
+    /* margin-top: 100px;; */
+
+}
+.open-lightbox:not(img){
+    width: 90%;
+    height: 90%;
+}
+.lightbox-opened {
+    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.9);
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    padding: 24px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.lightbox-opened:before {
+    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #eee;
+    content: "x";
+    font-family: sans-serif;
+    padding: 6px 12px;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+.lightbox-opened img {
+    box-shadow: 0 0 6px 3px #333;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+
+.open-lightbox>a {
+    margin-top: 50%;
+    position: relative;
+    top: 20%;
+}
+
+.img_text_header {
+    text-align: center;
+    /* margin-top: -22%; */
+    /* margin-bottom: 0; */
+    color: #fff;
+    /* flex-direction: column; */
+    /* height: 50%; */
+    /* margin-bottom: 60%; */
+    line-height: -70%;
+    font-size: 2rem;
+}
+
+.img_text_block {
+    margin-top: -35%;
+    font-size: 1.5rem;
+    /* line-height: 100%; */
+    height: 10px;
+    /* background: #ffde77; */
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.ticket-border-top {
+    border-top:3px dashed #ffde77;
+    height: 1px;
+    overflow:hidden;
+}
+
+
+
+.img_text_text {
+    /* margin-bottom: 90%; */
+    top: 25px;
+    /* font-size: 1rem; */
+    font-size: 1vh;
+    position: relative;
+    color: #fff;
+    line-height: 30px;
+    font-family: 'Arvo', serif;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Press Start 2P', cursive;
+    /* font-family: 'Noto Serif TC', serif; */
+}
+
+.ticket-border-left {
+    border-left: thick solid #000;
+    /* border: 3px dashed; */
+    height: 12%;
+    left: 50%;
+    top: 70%;
+    position: absolute;
+}
